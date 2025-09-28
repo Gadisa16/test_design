@@ -270,7 +270,8 @@ img {
 .section-head p {
   max-width: 50%;
   margin: 0 auto;
-  color: var(--muted)
+
+        font-weight: 300;
 }
 
 /* Cards */
@@ -281,7 +282,9 @@ img {
 }
 
 .cards.two {
-  grid-template-columns: repeat(2, minmax(0, 1fr))
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  width: 75%;
+  margin: auto;
 }
 
 .card {
@@ -336,7 +339,8 @@ img {
 /* FAQ */
 .faq-list {
   display: grid;
-  gap: 10px
+  gap: 10px;
+  list-style: none;
 }
 
 .faq {
@@ -366,7 +370,7 @@ img {
   content: "+";
   color: #6b778c;
   font-weight: 300;
-  font-size: 54px;
+  font-size: 44px;
 }
 
 .faq[open] summary::after {
