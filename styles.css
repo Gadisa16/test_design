@@ -415,10 +415,16 @@ img {
 }
 
 .site-footer .copyright{
-  margin-left: auto;
+  margin: 4px auto;
   font-size: .72rem;
   letter-spacing: .02em;
-  color: #cfe0ff
+  color: #cfe0ff;
+}
+
+@media (min-width: 768px) {
+  .site-footer .copyright {
+      margin-right: 0;
+    }
 }
 
 /* Responsive */
